@@ -95,5 +95,34 @@ Array.from([1, 2, 3], x => x + x);
 // [2, 4, 6]  使用箭头函数
 ```
 
+Array.prototype.copywithin()
 
+```js
+/** 参数：target start end */
+/** 功能：将数组中的一部分，复制到同一数组的另一个位置，并返回他，不改变数据的长度  */
+```
+
+Array.prototype.concat()
+
+```js
+/** 参数 (vaule/Array) */
+/** 功能：合并两个或者多个数据，此方法不改变现有数组，而是返回一个新数组  */
+/** 如果没有参数，则是对调用数组的一次浅拷贝  */
+```
+
+Array.prototype.entries()
+
+```js
+/** 参数：no  */
+/** 功能：返回一个数组的迭代器对象 */
+/** 使用for of进行遍历  */
+```
+
+Array.prototype.every()
+
+```js
+/** 参数： function(item, index, arr) */
+/** 返回值： boolean 【当数组为空的时候，都是返回true】 */
+/** 功能描述，遍历元素，如何第一个元素不满足函数的条件，则直接返回false */
+```
 
